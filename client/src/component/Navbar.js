@@ -1,20 +1,12 @@
-import React, { useEffect } from 'react'
+import React, {  } from 'react'
 
-const Navbar = () => {
-    const display = () => {
-      let userName = prompt("Enter Your Name")
-          if(userName !== null){
-            sessionStorage.setItem('name',userName)
-            console.log(sessionStorage.getItem('name'))
-          }
-    }    
-    useEffect(() => {
-        display()
-    },[])
+const Navbar = ({name}) => {
+  
    
   return (
     <div>
-
+     <h1> Welcome  {sessionStorage.getItem("name")}</h1>
+        
     </div>
   )
 }
