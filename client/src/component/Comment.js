@@ -1,4 +1,4 @@
-import React, { useEffect }from "react";
+import React, { useEffect } from "react";
 import { DataGrid } from "@mui/x-data-grid";
 import Navbar from "./Navbar";
 import { getComment } from "../redux/action";
@@ -27,6 +27,7 @@ function Comment() {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-around",
+          marginTop: "7%",
         }}
       >
         <div style={{ height: "calc(100vh - 25vh)", width: "85%" }}>

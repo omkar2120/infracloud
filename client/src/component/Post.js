@@ -20,7 +20,7 @@ function Post() {
   setTimeout(() => {
     setShow(false);
     console.log("Show");
-  },1000);
+  }, 1000);
 
   useEffect(() => {
     dispatch(getPost());
@@ -34,6 +34,7 @@ function Post() {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-around",
+          marginTop: "7%",
         }}
       >
         {show ? (

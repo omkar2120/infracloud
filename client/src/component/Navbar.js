@@ -74,13 +74,6 @@ const Navbar = ({ name }) => {
           </AppBar>
         </Box>
       </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-around",
-        }}
-      ></div>
     </>
   );
 };
